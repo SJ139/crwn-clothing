@@ -19,6 +19,7 @@
       position: absolute;
       top: 255px;
       display: none;
+      font-size: 60%;
     }
   
     &:hover {
@@ -37,7 +38,8 @@
       height: 5%;
       display: flex;
       justify-content: space-between;
-      font-size: 18px;
+      font-size: 16px;
+      font-weight: 300;
     
   
       .name {
