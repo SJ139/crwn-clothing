@@ -11,15 +11,15 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <BrowserRouter>
-  <UserProvider>
-    <CategoriesProvider>
-    <CartProvider>
-    <App />
-    </CartProvider>
-    </CategoriesProvider>
-  </UserProvider>
-  </BrowserRouter>
+    <BrowserRouter>
+      <UserProvider>
+        <CategoriesProvider>
+          <CartProvider>
+            <App />
+          </CartProvider>
+        </CategoriesProvider>
+      </UserProvider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
